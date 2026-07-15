@@ -513,22 +513,30 @@ h3 {
 }
 
 .portfolio-shot.food {
-  background: linear-gradient(135deg, rgba(28, 15, 10, 0.9), rgba(178, 85, 39, 0.8)), url("homepage-concept.png") center/cover;
+  background:
+    linear-gradient(180deg, rgba(4, 6, 10, 0.08), rgba(4, 6, 10, 0.72)),
+    url("portfolio-restaurante.svg") center/cover;
 }
 
 .portfolio-shot.novi {
-  background: linear-gradient(135deg, #ece8df, #4d515a 55%, #11131a);
-  color: #151820;
+  background:
+    linear-gradient(180deg, rgba(4, 6, 10, 0.04), rgba(4, 6, 10, 0.58)),
+    url("portfolio-produtos.svg") center/cover;
+  color: white;
   font-size: 2rem;
   text-transform: none;
 }
 
 .portfolio-shot.fit {
-  background: linear-gradient(135deg, #090b10, #48321f 54%, #e6ad66);
+  background:
+    linear-gradient(180deg, rgba(4, 6, 10, 0.05), rgba(4, 6, 10, 0.68)),
+    url("portfolio-fitness.svg") center/cover;
 }
 
-.portfolio-shot.arch {
-  background: linear-gradient(135deg, #202936, #b8c0c8);
+.portfolio-shot.law {
+  background:
+    linear-gradient(180deg, rgba(4, 6, 10, 0.06), rgba(4, 6, 10, 0.72)),
+    url("portfolio-advocacia.svg") center/cover;
 }
 
 .process {

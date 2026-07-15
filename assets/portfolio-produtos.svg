@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Marca de produtos">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1eee7"/>
+      <stop offset="0.58" stop-color="#6c7079"/>
+      <stop offset="1" stop-color="#10141d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1b7"/>
+      <stop offset="1" stop-color="#b78a36"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <rect x="98" y="88" width="220" height="260" rx="8" fill="#171a22" opacity=".96"/>
+  <rect x="344" y="126" width="190" height="182" rx="6" fill="#e9e3d8"/>
+  <path d="M390 178h96M390 214h70" stroke="#171a22" stroke-width="9" stroke-linecap="round" opacity=".7"/>
+  <circle cx="208" cy="184" r="52" fill="none" stroke="url(#gold)" stroke-width="10"/>
+  <path d="M180 250h56M166 282h84" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M80 358h476" stroke="#ffffff" stroke-width="6" opacity=".22"/>
+</svg>
