@@ -162,7 +162,7 @@ section[id] {
 .hero {
   background:
     linear-gradient(90deg, rgba(3, 5, 10, 0.98) 0%, rgba(3, 5, 10, 0.86) 39%, rgba(3, 5, 10, 0.18) 72%),
-    url("hero-background.png") center right / cover no-repeat;
+    url("hero-background-v2.jpg") center right / cover no-repeat;
   border-bottom: 1px solid var(--line);
 }
 
@@ -1039,7 +1039,7 @@ h3 {
   .hero {
     background:
       linear-gradient(180deg, rgba(3, 5, 10, 0.9) 0%, rgba(3, 5, 10, 0.72) 100%),
-      url("hero-background.png") center right / cover no-repeat;
+      url("hero-background-v2.jpg") center right / cover no-repeat;
   }
 
   .cta {
