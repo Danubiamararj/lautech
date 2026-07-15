@@ -66,7 +66,7 @@ p {
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: 230px 1fr auto;
+  grid-template-columns: 150px 1fr auto;
   align-items: center;
   gap: 24px;
   padding: 28px 0 22px;
@@ -77,32 +77,14 @@ p {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
   min-width: 0;
 }
 
-.brand-mark {
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  background: linear-gradient(135deg, var(--purple), var(--blue));
-  clip-path: polygon(0 0, 36% 0, 36% 62%, 100% 62%, 100% 100%, 0 100%);
-  color: transparent;
-}
-
-.brand-name {
-  display: grid;
-  gap: 2px;
-  font-size: 1.15rem;
-  font-weight: 800;
-  letter-spacing: 0.24em;
-}
-
-.brand-name strong {
-  color: var(--purple);
-  font-size: 0.72rem;
-  letter-spacing: 0.58em;
+.brand-logo {
+  width: auto;
+  height: 58px;
+  max-width: 150px;
+  object-fit: contain;
 }
 
 .main-nav {
@@ -308,14 +290,10 @@ h3 {
   text-transform: uppercase;
 }
 
-.mini-logo {
-  display: grid;
-  width: 24px;
-  height: 24px;
-  place-items: center;
-  background: linear-gradient(135deg, var(--purple), var(--blue));
-  clip-path: polygon(0 0, 40% 0, 40% 62%, 100% 62%, 100% 100%, 0 100%);
-  color: transparent;
+.mini-header img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
 .mini-copy {
@@ -644,8 +622,12 @@ h3 {
   border-radius: 50%;
   background: rgba(4, 6, 12, 0.54);
   box-shadow: 0 0 28px rgba(102, 212, 255, 0.42);
-  color: white;
-  font-size: 2.2rem;
+}
+
+.cta-icon img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
 }
 
 .cta h2 {
@@ -667,6 +649,11 @@ h3 {
 
 .footer-brand {
   margin-bottom: 18px;
+}
+
+.footer-brand .brand-logo {
+  height: 76px;
+  max-width: 210px;
 }
 
 .site-footer p {
