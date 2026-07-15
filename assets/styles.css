@@ -921,6 +921,35 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .service-grid {
+    gap: 14px;
+    margin-top: 32px;
+  }
+
+  .service-grid article {
+    display: flex;
+    min-height: auto;
+    flex-direction: column;
+    padding: 24px 22px;
+  }
+
+  .service-grid .line-icon {
+    width: 48px;
+    min-height: 48px;
+    margin-bottom: 20px;
+    font-size: 2.35rem;
+    line-height: 1;
+  }
+
+  .service-grid h3 {
+    margin-bottom: 10px;
+  }
+
+  .service-grid a {
+    margin-top: auto;
+    padding-top: 14px;
+  }
+
   .trust-row {
     padding-inline: 20px;
     text-align: left;
