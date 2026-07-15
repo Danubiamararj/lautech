@@ -766,9 +766,15 @@ h3 {
 
 .site-footer {
   display: grid;
-  grid-template-columns: 1.55fr repeat(3, 1fr);
+  grid-template-columns: minmax(280px, 1fr) auto;
+  align-items: start;
   gap: 68px;
   padding-block: 0 28px;
+}
+
+.site-footer > div {
+  display: grid;
+  justify-items: start;
 }
 
 .footer-brand {
@@ -776,13 +782,13 @@ h3 {
 }
 
 .footer-brand .brand-logo {
-  width: 220px;
+  width: 190px;
   height: auto;
   max-width: 100%;
 }
 
 .site-footer p {
-  max-width: 290px;
+  max-width: 430px;
   margin-bottom: 22px;
 }
 
