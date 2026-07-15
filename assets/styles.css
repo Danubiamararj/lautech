@@ -144,13 +144,14 @@ p {
 }
 
 .hero {
+  background:
+    linear-gradient(90deg, rgba(3, 5, 10, 0.98) 0%, rgba(3, 5, 10, 0.86) 39%, rgba(3, 5, 10, 0.18) 72%),
+    url("hero-background.png") center right / cover no-repeat;
   border-bottom: 1px solid var(--line);
 }
 
 .hero-inner {
-  display: grid;
-  grid-template-columns: minmax(0, 0.78fr) minmax(420px, 1.12fr);
-  gap: clamp(40px, 7vw, 118px);
+  display: flex;
   align-items: center;
   min-height: 710px;
   padding: 64px 0 58px;
@@ -238,113 +239,6 @@ h3 {
   min-height: 44px;
   padding-inline: 20px;
   font-size: 0.72rem;
-}
-
-.laptop-scene {
-  position: relative;
-  min-height: 520px;
-}
-
-.glow-panel {
-  position: absolute;
-  inset: 2% -6% auto auto;
-  width: 34%;
-  height: 56%;
-  background: linear-gradient(140deg, rgba(102, 212, 255, 0.72), rgba(103, 23, 255, 0.82));
-  filter: blur(28px);
-  opacity: 0.8;
-}
-
-.laptop {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: min(800px, 100%);
-  transform: perspective(1100px) rotateX(4deg) rotateY(-8deg) rotateZ(-2deg);
-  transform-origin: center bottom;
-}
-
-.laptop-screen {
-  position: relative;
-  height: 410px;
-  overflow: hidden;
-  border: 2px solid rgba(255, 255, 255, 0.18);
-  border-radius: 24px 24px 8px 8px;
-  background:
-    radial-gradient(circle at 75% 52%, rgba(111, 32, 255, 0.34), transparent 22rem),
-    linear-gradient(145deg, #080b13, #020307);
-  box-shadow: 0 38px 82px rgba(0, 0, 0, 0.68);
-}
-
-.mini-header {
-  position: absolute;
-  top: 46px;
-  left: 48px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.mini-header img {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-}
-
-.mini-copy {
-  position: absolute;
-  top: 130px;
-  left: 52px;
-  z-index: 2;
-  display: grid;
-  width: 320px;
-  gap: 14px;
-}
-
-.mini-copy span,
-.mini-copy em {
-  color: var(--purple);
-  font-size: 0.76rem;
-  font-style: normal;
-  font-weight: 800;
-}
-
-.mini-copy strong {
-  font-size: 1.7rem;
-  line-height: 1.1;
-}
-
-.mini-copy small {
-  color: var(--muted);
-  font-size: 0.83rem;
-}
-
-.wave-lines {
-  position: absolute;
-  right: -40px;
-  bottom: -18px;
-  width: 78%;
-  height: 62%;
-  background:
-    repeating-radial-gradient(ellipse at 58% 54%, transparent 0 12px, rgba(138, 44, 255, 0.48) 13px 15px),
-    linear-gradient(120deg, transparent 0%, rgba(100, 45, 255, 0.65) 62%, rgba(102, 212, 255, 0.38));
-  filter: blur(0.2px);
-  opacity: 0.86;
-  transform: skewX(-14deg);
-}
-
-.laptop-base {
-  width: 92%;
-  height: 74px;
-  margin: -2px auto 0;
-  border-radius: 8px 8px 30px 30px;
-  background: linear-gradient(180deg, #1b222d, #07090e);
-  box-shadow: 0 42px 58px rgba(0, 0, 0, 0.62);
 }
 
 .trust-row {
@@ -708,7 +602,7 @@ h3 {
   }
 
   .hero-inner {
-    min-height: auto;
+    min-height: 620px;
   }
 
   .service-grid,
@@ -747,26 +641,10 @@ h3 {
     text-align: left;
   }
 
-  .laptop-scene {
-    min-height: 330px;
-  }
-
-  .laptop-screen {
-    height: 260px;
-  }
-
-  .mini-header,
-  .mini-copy {
-    left: 26px;
-  }
-
-  .mini-copy {
-    top: 92px;
-    width: 230px;
-  }
-
-  .mini-copy strong {
-    font-size: 1.24rem;
+  .hero {
+    background:
+      linear-gradient(180deg, rgba(3, 5, 10, 0.9) 0%, rgba(3, 5, 10, 0.72) 100%),
+      url("hero-background.png") center right / cover no-repeat;
   }
 
   .cta {
