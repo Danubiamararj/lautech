@@ -81,9 +81,9 @@ p {
 }
 
 .brand-logo {
-  width: auto;
-  height: 58px;
-  max-width: 150px;
+  width: 142px;
+  height: auto;
+  max-width: 100%;
   object-fit: contain;
 }
 
@@ -652,8 +652,9 @@ h3 {
 }
 
 .footer-brand .brand-logo {
-  height: 76px;
-  max-width: 210px;
+  width: 220px;
+  height: auto;
+  max-width: 100%;
 }
 
 .site-footer p {
