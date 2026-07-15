@@ -406,6 +406,13 @@ h3 {
 .package-grid .button {
   align-self: end;
   width: fit-content;
+  margin-top: 4px;
+  border-color: rgba(138, 44, 255, 0.5);
+}
+
+.package-grid .button:hover {
+  border-color: rgba(138, 44, 255, 0.95);
+  box-shadow: 0 14px 34px rgba(81, 70, 255, 0.22);
 }
 
 .differential-grid {
