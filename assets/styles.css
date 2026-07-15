@@ -340,11 +340,23 @@ h3 {
 }
 
 .line-icon {
-  display: block;
+  display: inline-flex;
+  width: 56px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 36px;
   color: var(--purple);
-  font-size: 3rem;
-  line-height: 1;
+}
+
+.line-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
 }
 
 .service-grid a {
@@ -964,10 +976,8 @@ h3 {
 
   .service-grid .line-icon {
     width: 48px;
-    min-height: 48px;
+    height: 48px;
     margin-bottom: 20px;
-    font-size: 2.35rem;
-    line-height: 1;
   }
 
   .service-grid h3 {
