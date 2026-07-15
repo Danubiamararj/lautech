@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Lautech Studio - design, tecnologia e resultados para marcas que querem crescer no digital."
+      content="Lautech Studio - desenvolvimento de sites, identidade visual e marketing digital para marcas que querem vender melhor no digital."
     />
     <title>Lautech Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
@@ -19,73 +19,101 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#inicio" aria-label="Lautech Studio">
-        <img src="assets/brand-board.png" alt="" />
-        <span>LAUTECH <strong>STUDIO</strong></span>
+        <span class="brand-mark">L</span>
+        <span class="brand-name">LAUTECH <strong>STUDIO</strong></span>
       </a>
 
       <nav class="main-nav" aria-label="Navegação principal">
+        <a class="active" href="#inicio">Início</a>
         <a href="#servicos">Serviços</a>
         <a href="#portfolio">Portfólio</a>
+        <a href="#sobre">Sobre</a>
         <a href="#processo">Processo</a>
         <a href="#contato">Contato</a>
       </nav>
 
-      <a class="nav-action" href="#contato">Orçamento</a>
+      <a class="nav-action" href="#contato">Orçamento <span>→</span></a>
     </header>
 
     <main>
       <section class="hero" id="inicio">
-        <div class="hero-copy">
-          <p class="eyebrow">Design • Tecnologia • Resultados</p>
-          <h1>Construímos marcas fortes e experiências digitais que geram resultados.</h1>
-          <p>
-            Sites, identidade visual e marketing digital com estratégia e tecnologia para
-            impulsionar negócios no mundo digital.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#servicos">Nossos serviços</a>
-            <a class="button ghost" href="#portfolio">Ver portfólio</a>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Sites • Identidade visual • Marketing digital</p>
+            <h1>Desenvolvemos sites e marcas digitais preparados para vender melhor.</h1>
+            <p>
+              A Lautech Studio cria presença digital completa para negócios que precisam de um
+              site profissional, uma marca consistente e estratégias de marketing para atrair
+              clientes.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#servicos">Conhecer soluções <span>→</span></a>
+              <a class="button ghost" href="#contato">Solicitar diagnóstico</a>
+            </div>
+          </div>
+
+          <div class="laptop-scene" aria-label="Prévia visual de site em notebook">
+            <div class="glow-panel"></div>
+            <div class="laptop">
+              <div class="laptop-screen">
+                <div class="mini-header">
+                  <span class="mini-logo">L</span>
+                  <span>Lautech Studio</span>
+                </div>
+                <div class="mini-copy">
+                  <span>Lautech Studio</span>
+                  <strong>Sites, branding e marketing para negócios em crescimento.</strong>
+                  <small>Estrutura digital para apresentar, converter e fortalecer sua marca.</small>
+                  <em>Saiba mais →</em>
+                </div>
+                <div class="wave-lines"></div>
+              </div>
+              <div class="laptop-base"></div>
+            </div>
           </div>
         </div>
-
-        <figure class="hero-visual" aria-label="Prévia visual da Lautech Studio">
-          <img src="assets/homepage-concept.png" alt="Conceito visual do site Lautech Studio" />
-        </figure>
       </section>
 
-      <section class="trust-row" aria-label="Áreas de atuação">
-        <span>Web design</span>
-        <span>Identidade visual</span>
-        <span>Marketing digital</span>
-        <span>Tecnologia</span>
+      <section class="trust-row" aria-label="Empresas que confiam">
+        <span>Soluções para</span>
+        <strong>Empresas locais</strong>
+        <strong>Prestadores</strong>
+        <strong>Clínicas</strong>
+        <strong>Lojas</strong>
+        <strong>Infoprodutos</strong>
+        <strong>Startups</strong>
       </section>
 
-      <section class="section" id="servicos">
-        <div class="section-heading">
+      <section class="section services" id="servicos">
+        <div class="section-heading centered">
           <p class="eyebrow">Serviços</p>
-          <h2>Soluções completas para impulsionar sua marca.</h2>
+          <h2>Três frentes para sua empresa crescer no digital</h2>
         </div>
 
         <div class="service-grid">
           <article>
-            <span class="service-icon">01</span>
-            <h3>Criação de Sites</h3>
-            <p>Sites modernos, rápidos e responsivos para apresentar sua marca com autoridade.</p>
+            <span class="line-icon">▭</span>
+            <h3>Desenvolvimento de Sites</h3>
+            <p>Sites institucionais, landing pages e páginas de venda rápidas, responsivas e bem estruturadas.</p>
+            <a href="#contato">Saiba mais →</a>
           </article>
           <article>
-            <span class="service-icon">02</span>
+            <span class="line-icon">♢</span>
             <h3>Identidade Visual</h3>
-            <p>Marcas memoráveis que comunicam propósito, valor e confiança.</p>
+            <p>Logo, paleta, tipografia e direção visual para sua marca parecer profissional em todos os canais.</p>
+            <a href="#contato">Saiba mais →</a>
           </article>
           <article>
-            <span class="service-icon">03</span>
+            <span class="line-icon">◁</span>
             <h3>Marketing Digital</h3>
-            <p>Estratégias para atrair, engajar e converter clientes com consistência.</p>
+            <p>Estratégias de conteúdo, campanhas e posicionamento para atrair leads e gerar oportunidades.</p>
+            <a href="#contato">Saiba mais →</a>
           </article>
           <article>
-            <span class="service-icon">04</span>
-            <h3>SEO & Performance</h3>
-            <p>Otimização para velocidade, busca orgânica e melhor experiência do usuário.</p>
+            <span class="line-icon">⌁</span>
+            <h3>SEO & Conversão</h3>
+            <p>Otimização técnica, textos persuasivos e melhoria de performance para transformar visitas em contatos.</p>
+            <a href="#contato">Saiba mais →</a>
           </article>
         </div>
       </section>
@@ -94,83 +122,149 @@
         <div class="section-heading row">
           <div>
             <p class="eyebrow">Portfólio</p>
-            <h2>Projetos que geram impacto e resultados.</h2>
+            <h2>Projetos digitais pensados para marca, tráfego e conversão</h2>
           </div>
-          <a class="button ghost" href="#contato">Ver todos</a>
+          <a class="button ghost compact" href="#contato">Ver todos os projetos</a>
         </div>
 
-        <div class="portfolio-grid">
+        <div class="portfolio-strip">
           <article>
-            <div class="portfolio-shot gradient-a"></div>
-            <h3>Sabores que Conectam</h3>
-            <p>Site institucional</p>
+            <div class="portfolio-shot food">Sabores que conectam</div>
+            <h3>Restaurante local</h3>
+            <p>Site institucional com cardápio e WhatsApp</p>
           </article>
           <article>
-            <div class="portfolio-shot gradient-b"></div>
-            <h3>Nóvi</h3>
-            <p>Identidade visual</p>
+            <div class="portfolio-shot novi">nóvi</div>
+            <h3>Marca de produtos</h3>
+            <p>Identidade visual e guia de uso</p>
           </article>
           <article>
-            <div class="portfolio-shot gradient-c"></div>
+            <div class="portfolio-shot fit">Disciplina foco & evolução</div>
             <h3>PrimeFit</h3>
-            <p>Landing page</p>
+            <p>Landing page para captação de alunos</p>
+          </article>
+          <article>
+            <div class="portfolio-shot arch">Arquitetura que inspira</div>
+            <h3>Escritório de arquitetura</h3>
+            <p>Site institucional com portfólio</p>
           </article>
         </div>
       </section>
 
       <section class="process" id="processo">
         <p class="eyebrow">Processo</p>
-        <h2>Nosso processo em 4 etapas simples.</h2>
+        <h2>Do posicionamento ao site publicado em <span>4 etapas</span></h2>
         <div class="process-grid">
           <article>
+            <span class="process-icon">☷</span>
             <strong>01</strong>
-            <h3>Descoberta</h3>
-            <p>Entendemos seu negócio, público e objetivos.</p>
+            <h3>Diagnóstico</h3>
+            <p>Entendemos seu negócio, público, oferta e canais para definir a melhor estratégia.</p>
           </article>
           <article>
+            <span class="process-icon">⌁</span>
             <strong>02</strong>
-            <h3>Planejamento</h3>
-            <p>Definimos estrutura, conteúdo e experiência.</p>
+            <h3>Estratégia visual</h3>
+            <p>Organizamos identidade, mensagem, estrutura das páginas e caminhos de conversão.</p>
           </article>
           <article>
+            <span class="process-icon">&lt;/&gt;</span>
             <strong>03</strong>
             <h3>Desenvolvimento</h3>
-            <p>Transformamos a estratégia em uma presença digital funcional.</p>
+            <p>Construímos o site com foco em velocidade, navegação clara e experiência responsiva.</p>
           </article>
           <article>
+            <span class="process-icon">◇</span>
             <strong>04</strong>
-            <h3>Entrega</h3>
-            <p>Publicamos, revisamos e deixamos tudo pronto para crescer.</p>
+            <h3>Publicação & Marketing</h3>
+            <p>Publicamos, revisamos e orientamos os próximos passos para atrair visitantes qualificados.</p>
           </article>
         </div>
       </section>
 
-      <section class="about">
-        <div>
+      <section class="about" id="sobre">
+        <div class="about-copy">
           <p class="eyebrow">Sobre a Lautech Studio</p>
-          <h2>Design estratégico. Tecnologia inteligente. Resultados reais.</h2>
+          <h2>Seu negócio com presença digital profissional, clara e orientada a vendas.</h2>
+          <p>
+            Somos um estúdio especializado em desenvolvimento de sites, identidade visual e
+            marketing digital para empreendedores, empresas locais e marcas em crescimento.
+            Unimos design, tecnologia e estratégia para transformar sua presença online em um
+            canal real de relacionamento e venda.
+          </p>
+          <a class="button ghost compact" href="#contato">Conheça mais sobre nós →</a>
         </div>
-        <p>
-          Somos um estúdio criativo especializado em transformar ideias em marcas fortes e
-          experiências digitais que conectam, engajam e vendem.
-        </p>
+
+        <div class="feature-grid">
+          <article>
+            <span>✧</span>
+            <h3>Site com objetivo</h3>
+            <p>Estrutura pensada para apresentar sua oferta e facilitar o contato.</p>
+          </article>
+          <article>
+            <span>▣</span>
+            <h3>Marca consistente</h3>
+            <p>Visual alinhado ao posicionamento, público e canais da empresa.</p>
+          </article>
+          <article>
+            <span>⌂</span>
+            <h3>Performance técnica</h3>
+            <p>Páginas rápidas, responsivas e preparadas para publicação segura.</p>
+          </article>
+          <article>
+            <span>☼</span>
+            <h3>Marketing integrado</h3>
+            <p>Base pronta para campanhas, conteúdo, SEO e captação de leads.</p>
+          </article>
+        </div>
       </section>
 
       <section class="cta" id="contato">
+        <div class="cta-icon">◇</div>
         <div>
-          <p class="eyebrow">Próximo passo</p>
-          <h2>Pronto para elevar sua marca ao próximo nível?</h2>
+          <h2>Precisa de um site, uma marca ou uma estratégia digital?</h2>
+          <p>Conte sobre seu negócio e receba uma proposta alinhada ao seu momento.</p>
         </div>
-        <a class="button primary" href="mailto:contato@lautechstudio.com.br">Solicitar orçamento</a>
+        <a class="button primary" href="mailto:contato@lautechstudio.com.br">Solicitar proposta →</a>
       </section>
     </main>
 
     <footer class="site-footer">
-      <a class="brand" href="#inicio" aria-label="Lautech Studio">
-        <img src="assets/brand-board.png" alt="" />
-        <span>LAUTECH <strong>STUDIO</strong></span>
-      </a>
-      <span>© <span id="current-year"></span> Lautech Studio. Todos os direitos reservados.</span>
+      <div>
+        <a class="brand footer-brand" href="#inicio" aria-label="Lautech Studio">
+          <span class="brand-mark">L</span>
+          <span class="brand-name">LAUTECH <strong>STUDIO</strong></span>
+        </a>
+        <p>Desenvolvimento de sites, identidade visual e marketing digital para negócios que querem crescer online.</p>
+        <div class="social-links" aria-label="Redes sociais">
+          <a href="#inicio">Ig</a>
+          <a href="#inicio">In</a>
+          <a href="#inicio">Be</a>
+          <a href="#inicio">Dr</a>
+        </div>
+      </div>
+      <nav aria-label="Navegação do rodapé">
+        <strong>Navegação</strong>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#processo">Processo</a>
+      </nav>
+      <nav aria-label="Serviços">
+        <strong>Serviços</strong>
+        <a href="#servicos">Desenvolvimento de Sites</a>
+        <a href="#servicos">Identidade Visual</a>
+        <a href="#servicos">Marketing Digital</a>
+        <a href="#servicos">SEO & Conversão</a>
+      </nav>
+      <address>
+        <strong>Contato</strong>
+        <span>(11) 98765-4321</span>
+        <span>contato@lautechstudio.com.br</span>
+        <span>São Paulo - SP</span>
+        <span>Seg a Sex, 9h às 18h</span>
+      </address>
     </footer>
 
     <script src="assets/script.js"></script>
