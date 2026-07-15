@@ -775,11 +775,12 @@ h3 {
 .footer-brand-block,
 .footer-contact {
   display: grid;
-  align-content: start;
-  justify-items: start;
+  align-content: center;
+  justify-items: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   background: rgba(9, 13, 21, 0.52);
+  text-align: center;
 }
 
 .footer-brand-block {
@@ -807,7 +808,8 @@ h3 {
   display: grid;
   width: 100%;
   gap: 12px;
-  align-content: start;
+  align-content: center;
+  justify-items: center;
   font-style: normal;
 }
 
@@ -823,6 +825,7 @@ h3 {
   display: flex;
   min-width: 0;
   align-items: center;
+  justify-content: center;
   gap: 12px;
 }
 
@@ -843,6 +846,7 @@ h3 {
 
 .footer-cta {
   margin-top: 4px;
+  justify-self: center;
 }
 
 .whatsapp-float {
