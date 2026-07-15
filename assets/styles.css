@@ -515,28 +515,26 @@ h3 {
 .portfolio-shot.food {
   background:
     linear-gradient(180deg, rgba(4, 6, 10, 0.08), rgba(4, 6, 10, 0.72)),
-    url("portfolio-restaurante.svg") center/cover;
+    url("portfolio-restaurante.png") center/cover;
 }
 
-.portfolio-shot.novi {
+.portfolio-shot.dental {
   background:
-    linear-gradient(180deg, rgba(4, 6, 10, 0.04), rgba(4, 6, 10, 0.58)),
-    url("portfolio-produtos.svg") center/cover;
+    linear-gradient(180deg, rgba(4, 6, 10, 0.06), rgba(4, 6, 10, 0.68)),
+    url("portfolio-odontologia.png") center/cover;
   color: white;
-  font-size: 2rem;
-  text-transform: none;
 }
 
 .portfolio-shot.fit {
   background:
     linear-gradient(180deg, rgba(4, 6, 10, 0.05), rgba(4, 6, 10, 0.68)),
-    url("portfolio-fitness.svg") center/cover;
+    url("portfolio-fitness.png") center/cover;
 }
 
 .portfolio-shot.law {
   background:
     linear-gradient(180deg, rgba(4, 6, 10, 0.06), rgba(4, 6, 10, 0.72)),
-    url("portfolio-advocacia.svg") center/cover;
+    url("portfolio-advocacia.png") center/cover;
 }
 
 .process {
