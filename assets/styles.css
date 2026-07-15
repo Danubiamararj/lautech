@@ -928,12 +928,12 @@ h3 {
 
   .service-grid {
     gap: 14px;
-    margin-top: 14px;
+    margin-top: 10px;
   }
 
   .services .section-heading.centered {
     max-width: none;
-    padding: 24px 22px;
+    padding: 18px 20px;
     border: 1px solid rgba(255, 255, 255, 0.13);
     border-radius: 4px;
     background:
@@ -944,7 +944,8 @@ h3 {
   }
 
   .services .section-heading.centered h2 {
-    font-size: 1.72rem;
+    font-size: 1.56rem;
+    line-height: 1.14;
   }
 
   .service-grid article {
