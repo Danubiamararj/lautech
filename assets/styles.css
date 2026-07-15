@@ -518,10 +518,10 @@ h3 {
     url("portfolio-restaurante.png") center/cover;
 }
 
-.portfolio-shot.dental {
+.portfolio-shot.medical {
   background:
     linear-gradient(180deg, rgba(4, 6, 10, 0.06), rgba(4, 6, 10, 0.68)),
-    url("portfolio-odontologia.png") center/cover;
+    url("portfolio-clinica-medica.png") center/cover;
   color: white;
 }
 
