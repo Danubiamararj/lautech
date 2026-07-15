@@ -70,7 +70,7 @@ section[id] {
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: 150px 1fr auto;
+  grid-template-columns: 142px 1fr auto;
   align-items: center;
   gap: 24px;
   padding: 28px 0 22px;
@@ -94,7 +94,7 @@ section[id] {
 .main-nav {
   display: flex;
   justify-content: center;
-  gap: clamp(18px, 3.2vw, 48px);
+  gap: clamp(12px, 2vw, 28px);
   color: #d8dce8;
   font-size: 0.76rem;
   font-weight: 800;
@@ -560,6 +560,37 @@ h3 {
   font-size: 1.08rem;
 }
 
+.quote-steps {
+  border-bottom: 1px solid var(--line);
+}
+
+.quote-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 42px;
+}
+
+.quote-grid article {
+  min-height: 210px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 4px;
+  background:
+    linear-gradient(180deg, rgba(18, 23, 34, 0.86), rgba(7, 10, 16, 0.94)),
+    var(--panel);
+}
+
+.quote-grid strong {
+  display: block;
+  margin-bottom: 28px;
+  color: var(--purple);
+}
+
+.quote-grid p {
+  color: var(--muted);
+}
+
 .about {
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(420px, 1fr);
@@ -745,12 +776,13 @@ h3 {
   bottom: 24px;
   z-index: 30;
   display: inline-flex;
-  min-height: 48px;
+  min-height: 58px;
   align-items: center;
   justify-content: center;
-  padding: 0 18px;
+  gap: 10px;
+  padding: 0 18px 0 14px;
   border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 8px;
+  border-radius: 999px;
   background: linear-gradient(135deg, #18b95f, #0a8f4a);
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
   color: white;
@@ -758,6 +790,16 @@ h3 {
   font-weight: 900;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+}
+
+.whatsapp-float span {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.16);
+  font-size: 1.1rem;
 }
 
 @media (max-width: 1100px) {
@@ -782,6 +824,12 @@ h3 {
     justify-content: flex-start;
     overflow-x: auto;
     padding-bottom: 6px;
+    gap: 18px;
+    scrollbar-width: none;
+  }
+
+  .main-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .hero-inner {
@@ -792,6 +840,7 @@ h3 {
   .package-grid,
   .differential-grid,
   .proof-grid,
+  .quote-grid,
   .process-grid,
   .portfolio-strip,
   .feature-grid {
@@ -817,6 +866,7 @@ h3 {
   .package-grid,
   .differential-grid,
   .proof-grid,
+  .quote-grid,
   .process-grid,
   .portfolio-strip,
   .feature-grid,
@@ -843,5 +893,16 @@ h3 {
   .button,
   .nav-action {
     width: 100%;
+  }
+
+  .whatsapp-float {
+    right: 16px;
+    bottom: 16px;
+    min-height: 54px;
+    padding-inline: 12px 14px;
+  }
+
+  .whatsapp-float strong {
+    display: none;
   }
 }
